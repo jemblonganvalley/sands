@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+/* Container Dark */
+.sec-whyUs .cont-dark{
+    display: flex;
+    position: absolute;
+    height: 80vh;
+    width: 100vw;
+    background: rgba(0,0,0,0.6);
+}
+/* END Container Dark */
+
+/* Section */
+.sec-whyUs{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background-image: url(https://images.pexels.com/photos/2300334/pexels-photo-2300334.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+/* END Section */
+
+/* Container1 */
+.container-1{
+    display: flex;
+    position: relative;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* END Container1 */
+
+.container-1 h1{
+    color: #fff;
+}
+
+/* Container2 */
+.container-2{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+/* END Container2 */
+
+/* rowGroup */
+.rowGroup{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3%;
+}
+/* END rowGroup */
+
+/* imgGroup */
+.imgGroup{
+    display: flex;
+    height: 95px;
+    width: 95px;
+    background: #fff;
+    box-shadow: 0 3px 6px -1px rgba(0,0,0,0.3);
+    object-fit: cover;
+    border-radius: 500px;
+    margin: 0 0 0px 0;
+}
+/* END imgGroup */
+
+/* fGroup */
+.fGroup{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+/* END fGroup */
+
+/* titGroup */
+.titGroup{
+    display: flex;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 30px 0 0 0;
+}
+/* END titGroup */
+
+/* pGroup */
+.pGroup{
+    display: flex;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 5px 0 0 0;
+}
+/* END pGroup */
