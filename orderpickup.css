@@ -15,24 +15,33 @@ body{
 /* Section */
 .order-pickUp{
     display: flex;
-    height: auto;
+    height: 100vh;
     width: 100vw;
     background: #F0C000;
 }
 /* END Section */
 
 /* Container1 */
-.container-1{
+.container-1, .container-2{
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 100%;
+    width: 50%;
     padding: 5% 0;
     align-items: center;
+    justify-content: center;
+}
+
+.container-2{
+    background-color: black;
+}
+
+.container-2 h1{
+    color: #F0C000;
 }
 /* END Container1 */
 
-.title{
+.container-1 .title{
     color: #000;
 }
 
@@ -47,12 +56,12 @@ form{
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 30%;
+    width: 60%;
     background: #fff;
     box-shadow: 0px 2px 15px -1px rgba(0,0,0,0.3);
     border-radius: 5px;
     margin: 20px 0 0 0;
-    padding: 2%;  
+    padding: 20px;  
     transition: .2s;
 }
 /* END Form */
