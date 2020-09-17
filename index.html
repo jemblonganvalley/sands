@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="./orderpickup.css">
     <link rel="stylesheet" href="./our service.css">
@@ -131,8 +131,8 @@
     </section>
 
     <!-- OUR SERVICES -->
-    <section class="content">
-      <h1>Our Services</h1>
+    <section class="content" >
+      <h1 class="osText" id="ourservices">Our Services</h1>
       <p>
         Shoe Mo is Southeast Asia’s Shoe & Sneaker Care Service Brand. We use
         standardised processes, 100% handwash, to take care of your shoes and
@@ -141,39 +141,89 @@
         and customization. We are available in 4 countries (Malaysia, Singapore,
         Brunei, Indonesia) and more to come!
       </p>
-      
+
       <div class="card-list">
         <div class="card">
           <h5>SHOE CLEANING SERVICE</h5>
-          <div class="image-card"></div>
+          <div class="image-card imgc-1"></div>
         </div>
 
         <div class="card">
           <h5>SHOE REPAIR SERVICE</h5>
-          <div class="image-card"></div>
+          <div class="image-card imgc-2"></div>
         </div>
 
         <div class="card">
           <h5>REPAINTING & UNYELLOWING</h5>
-          <div class="image-card"></div>
+          <div class="image-card imgc-3"></div>
         </div>
 
         <div class="card">
           <h5>POLISH | DE-ODOR | WATER REPELENT</h5>
-          <div class="image-card"></div>
+          <div class="image-card imgc-4"></div>
         </div>
 
         <div class="card">
           <h5>RESTORATION CUSTOMIZATION</h5>
-          <div class="image-card"></div>
+          <div class="image-card imgc-5"></div>
         </div>
 
         <div class="card">
           <h5>BAG CLEANING SERVICE</h5>
-          <div class="image-card"></div>
+          <div class="image-card imgc-6"></div>
         </div>
       </div>
     </section>
+
+    <!-- ORDER PICKUP -->
+     <section class="order-pickUp" id="order">
+        <!-- Container1 -->
+        <div class="container-1">
+            <h1 class="title">Order Pick Up</h1>
+            <p class="paragraph">
+                Please complete this pickup form
+            </p>
+
+            <!-- Form -->
+            <form action="submit">
+                <!-- Column1 -->
+                <div class="col1 colGroup">
+                    <label for="label">Nama</label>
+                    <input type="text">
+                </div>
+                <!-- END Column1 -->
+
+                <!-- Column2 -->
+                <div class="col2 colGroup">
+                    <label for="label">Email</label>
+                    <input type="email">
+                </div>
+                <!-- END Column2 -->
+
+                <!-- Column3 -->
+                <div class="col3 colGroup">
+                    <label for="label">No. Telp</label>
+                    <input type="telp">
+                </div>
+                <!-- END Column3 -->
+
+                <!-- Column4 -->
+                <div class="col4 colGroup">
+                    <label for="label">Alamat</label>
+                    <input type="text">
+                </div>
+                <!-- END Column4 -->
+
+                <!-- Btn -->
+                <button type="submit">SUBMIT</button>
+                <!-- END Btn -->
+            </form>
+            <!-- END Form -->
+        </div>
+        <!-- END Container1 -->
+    </section>
+
+    
 
 
 
