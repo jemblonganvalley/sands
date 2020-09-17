@@ -24,6 +24,8 @@ nav{
     top: 0;
     left: 0;
     background-color: #303030;
+    /* position: sticky; */
+    z-index: 99999;
 }
 
 .menuItem{
