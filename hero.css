@@ -59,3 +59,16 @@ a{
     background-color: orange;
     border-radius: 50px;
 }
+
+@media only screen and (max-width : 500px){
+    .menuHero{
+        flex-direction: column;
+        height: 20%;
+        gap: 20px;
+    }
+
+    .hero h1{
+        text-align: center;
+        width: 100%;
+    }
+}
