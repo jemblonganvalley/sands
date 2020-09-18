@@ -1,0 +1,137 @@
+
+.menuIcons{
+    display: none;
+}
+
+.menuMobile{
+    display: none;
+}
+
+
+@media only screen and (max-width : 500px){
+
+
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        padding: 10%;
+        align-items: center;
+        height: 10vh;
+        z-index: 100 !important;
+        position: fixed;
+        background-color: #F0C000;
+    }
+
+    .menuMobile{
+        display: flex;
+        width: 100vw;
+        height: 50vh;
+        position: fixed;
+        background-color: #000;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 0 0 0 60px;
+        transform: translate(100vh, 200vw);
+        transition-duration: .3s;
+    }
+
+    .menuMobile a {
+        text-decoration: none;
+        color: ghostwhite;
+     
+    }
+
+    .menuMobile a h3{
+        font-weight: 300;
+        font-size: 2rem;
+    }
+
+    .menuIcons{
+        display: initial;
+        position: fixed;
+        background-color: #FF83FA;
+        width: 60px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 0;
+        top: 10vh;
+        z-index: 9999;
+        border-radius: 0 0 0 30px;
+        color: ghostwhite;
+    }
+
+    .menuItem{
+        display: none;
+    }
+
+    .title-whyUS{
+        font-size: 3rem; 
+        grid-area: tw;
+    }
+
+    .cont-dark{
+        width: 200vw !important;
+        margin: 0 -10%;
+    }
+
+    .sec-whyUs{
+        overflow-y: scroll !important;
+        padding: 0;
+        height: 80vh;
+        position: relative;
+        
+    }
+
+    .container-w-2{
+        padding: 0;
+        width: 300vw !important;
+        height: 70%;
+        overflow-y: scroll;
+        display: flex;
+        position: absolute;
+        left: -200vw;
+        bottom: 0;
+
+    }
+
+    .container-w-1{
+        position: absolute;
+        top: 50px;
+    }
+
+    .rowGroup{
+        width: 100%;
+        display: flex;
+        padding: 0 5%;
+    }
+
+    .rowGroup img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .row1-cont2{
+        grid-area: row1;
+
+    }
+
+     .row2-cont2{
+        grid-area: row2;
+    }
+
+     .row3-cont2{
+        grid-area: row3;
+    }
+
+
+
+
+
+
+
+}
