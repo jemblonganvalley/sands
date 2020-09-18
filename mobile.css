@@ -36,6 +36,8 @@
         border-radius: 0 0 0 60px;
         transform: translate(100vh, 200vw);
         transition-duration: .3s;
+        margin-top: 10vh;
+
     }
 
     .menuMobile a {
@@ -128,6 +130,18 @@
         grid-area: row3;
     }
 
+
+    .order-pickUp{
+        flex-direction: column;
+    }
+
+    .container-1, .container-2{
+        width: 100vw;
+    }
+
+    .container-1 form , .container-2 form{
+        width: 80vw;
+    }
 
 
 
