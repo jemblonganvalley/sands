@@ -12,23 +12,28 @@ body{
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
-.content{
+.content-hero{
+    padding: 0;
+    margin: 0;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
 }
+
 .hero{
     display: flex;
     background-image: url('https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh !important;
     color: #ffffffd3;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0px 10%;
+    margin: 0;
 }
 .menuHero{
     display: flex;
